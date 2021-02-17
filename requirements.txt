@@ -2,4 +2,3 @@ pandas==1.1.1
 pyshorteners==1.0.1
 Pillow==2.2.2
 streamlit
-webbrowser
