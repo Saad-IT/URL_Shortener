@@ -16,13 +16,10 @@ if st.sidebar.checkbox("How it works?",False,key=1):
 st.sidebar.markdown("Developed by: ")
 st.sidebar.subheader("Syed Saad Ali \n  (B.Tech (IT) Student)")
 st.sidebar.markdown("Follow on: ")
+st.sidebar.success("Github: https://github.com/Saad-IT")
+st.sidebar.success("Linkedin: https://www.linkedin.com/in/saad-ali-syed-b88830193")
 
-S1,S2=st.sidebar.beta_columns(2)
 
-if S1.button("Github📎"):
-    webbrowser.open("https://github.com/Saad-IT")
-if S2.button("Linkedin📎"):
-    webbrowser.open("https://www.linkedin.com/in/saad-ali-syed-b88830193")
 st.markdown("⌨️ Enter Your URL Here:")
 url=st.text_input("")
 bt=st.button("Enter")
@@ -40,5 +37,3 @@ if url and bt:
     except:
         st.error("⚠️ Please Enter Valid URL")
 
-
-#st.progress()
