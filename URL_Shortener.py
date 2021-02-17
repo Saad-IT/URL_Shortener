@@ -7,7 +7,7 @@ import webbrowser
 
 
 st.title("URL Shortener")
-image=Image.open("URL_Shortener_Image.jpg")
+image=Image.open("URL_Shortener_logo.jpg")
 st.image(image,use_column_width=True)
 st.sidebar.title("URL Shortener ✂️")
 if st.sidebar.checkbox("How it works?",False,key=1):
