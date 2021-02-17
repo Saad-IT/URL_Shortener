@@ -1,7 +1,7 @@
 # URL_Shortener
-Simple URL Shortener Web Application using python and streamlit. This application is deployed using heroku.
+Simple URL Shortener Web Application created in python and streamlit and deployed on heroku platform.
 
-![alt text](https://github.com/Saad-IT/URL_Shortener/blob/main/Application_Screenshot.jpg)
+![alt text](https://github.com/Saad-IT/URL_Shortener/blob/main/Application_Screenshot.jpg?raw=true)
 
 
 
