@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run URL_Shortener_Streamlit.py
+web: sh setup.sh && streamlit run URL_Shortener.py
